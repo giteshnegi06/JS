@@ -65,11 +65,98 @@
 //     if(i%a==0){
 //         console.log(i);
 //     }
-// }
+// }    
 
 // 9
-let sum =""
-for(let i=1; i<=4; i++){
-    sum+=i
-    console.log(sum);
+// let sum =""
+// for(let i=1; i<=4; i++){
+//     sum+=i
+//     console.log(sum);
+// }
+
+
+// Nested For Loop
+
+// 1
+// for(let i=0; i<=5; i++){
+//     let bag="";
+//     for(let j=1; j<=5; j++){
+//         bag+="*"
+//     }
+//     console.log(bag);
+// }
+
+
+// 2
+// for(let i=1; i<=5; i++){
+//     let bag=""
+//     for(let j=1; j<=i; j++){
+//         bag+="*"
+//     }
+//     console.log(bag);
+// }
+
+
+// 4
+// for(let i=5; i>=1; i--){
+//     let bag=""
+//     for(let j=1; j<=i; j++){
+//         bag+="*"
+//     }
+//     console.log(bag);
+// }
+
+
+
+// 6
+// for(let i=1; i<=5; i++){
+//     let bag=""
+//     for(let j=1; j<=i; j++){
+//         bag+=i
+//     }
+//     console.log(bag);
+// }
+
+
+// 7
+// for(let i=1; i<=5; i++){
+//     let bag=""
+//     for(let j=1; j<=6-1-i; j++){
+//         bag+=" "
+//     }
+//     for(let k=1; k<=i*2-1; k++){
+//         bag+="*"
+//     }
+//     console.log(bag);
+// }
+// for(let i=4; i>=1; i--){
+//     let bag=""
+//     for(let j=1; j<=6-1-i; j++){
+//         bag+=" "
+//     }
+//     for(let k=1; k<=i*2-1; k++){
+//         bag+="*"
+//     }
+//     console.log(bag);
+// }
+
+
+
+// 8 
+// for(let i=5; i>=1; i--){
+//     let bag=""
+//     for(let j=i; j>=1; j--){
+//         bag+=j
+//     }
+//     console.log(bag);
+// }
+
+
+// 9
+for(let i=5; i>=1; i--){
+    let bag=""
+    for(let j=i; j>=1; j--){
+        bag+=j
+    }
+    console.log(bag);
 }
