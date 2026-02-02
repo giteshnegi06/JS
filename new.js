@@ -166,16 +166,148 @@
 
 
 // 9
-let n=5
-for(let i=1; i<=n; i++){
-    let bag=""
-    for(let k=1; k<=n; k++){
-        if(i===1 || i===n || k===1 || k===n){
-            bag+="*"
-        }
-        else{
-            bag+=" "
-        }
-    }
-    console.log(bag);
-}
+// let n=5
+// for(let i=1; i<=n; i++){
+//     let bag=""
+//     for(let k=1; k<=n; k++){
+//         if(i===1 || i===n || k===1 || k===n){
+//             bag+="*"
+//         }
+//         else{
+//             bag+=" "
+//         }
+//     }
+//     console.log(bag);
+// }
+
+
+
+// SWITCH STATEMENT
+ 
+// 1
+// let score = 96
+// let grade;
+// switch(true){
+//     case score>=90 && score<=100:
+//     grade = "A"
+//     break;
+
+//     case score>=80 && score<=89:
+//     grade = "B"
+//     break;
+
+//     case score>=70 && score<=79:
+//     grade = "C"
+//     break;
+
+//     case score>=60 && score<=69:
+//     grade = "D"
+//     break;
+
+//     case score>=0 && score<=60:
+//     grade = "F"
+//     break;
+
+//     default : grade = "Enter the valed Score"
+// }
+// console.log(grade);
+
+
+
+// 2
+
+// let day = 1;
+// switch(day){
+//     case 1:
+//         console.log("Monday");
+//         break;
+    
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+
+//     case 4:
+//         console.log("Thurday");
+//         break;
+
+//     case 5:
+//         console.log("Friday");
+//         break;
+
+//     case 6:
+//         console.log("Saturday");
+//         break;
+
+//     case 7:
+//         console.log("Sunday");
+//         break;
+
+//     default:
+//         console.log("Invalid Data");
+// }
+
+
+
+// 3
+// let month = 5;
+// switch(month){
+//     case 1:
+//         console.log("January");
+//         break;
+//     case 2:
+//         console.log("Febury");
+//         break;
+//     case 3:
+//         console.log("March");
+//         break;
+//     case 4:
+//         console.log("April");
+//         break;
+//     case 5:
+//         console.log("May");
+//         break;
+//     case 6:
+//         console.log("June");
+//         break;
+//     case 7:
+//         console.log("July");
+//         break;
+//     case 8:
+//         console.log("August");
+//         break;
+//     case 9:
+//         console.log("September");
+//         break;
+//     case 10:
+//         console.log("October");
+//         break;
+//     case 11:
+//         console.log("November");
+//         break;
+//     case 12:
+//         console.log("December");
+//         break;
+// }
+
+
+// 4
+// let colour ="Red"
+// let msg
+// switch(true){
+//     case colour=="Red":
+//         msg = "Stop"
+//         break;
+//     case colour=="Green":
+//         msg ="Go"
+//         break;
+//     case colour=="Yellow":
+//         msg ="Slow Down"
+//         break;
+//     default:
+//         msg = "Invalid value"
+// }
+// console.log(msg);
