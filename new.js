@@ -311,3 +311,134 @@
 //         msg = "Invalid value"
 // }
 // console.log(msg);
+
+
+// 5
+// let a = 5
+// let b = 6
+// let operator = "+"
+// let result
+// switch(operator){
+//     case "+":
+//         result = a+b
+//         break;
+
+//     case "-":
+//         result = a-b
+//         break;
+
+//     case "*":
+//         result = a*b
+//         break;
+
+//     case "/":
+//         if(b !==0){
+//             result = a/b
+//         }
+//         else{
+//             result ="Error"
+//         }
+//         break;
+
+//     default:
+//         result = "Invalid Operator"
+// }
+// console.log(result);
+
+
+
+// 6
+// let a = 6
+// let result
+// switch(true){
+//     case a==1 || a==2 || a==3 || a==4 || a==5:
+//         console.log("Day is a weekday");
+//         break;
+
+//     case a==6 || a==7:
+//         console.log("Day is a weekend");
+//         break;
+
+//     default:
+//         console.log("Invalid Day");
+
+// }
+
+
+
+// 7
+// let a = 9
+// let season
+// switch(true){
+//     case a==1 || a==2 || a==12:
+//         season = "Winter"
+//         break;
+
+//     case a==3 || a==4 || a==5:
+//         season = "Spring"
+//         break;
+
+//     case a==6 || a==7 || a==8:
+//         season = "Summer"
+//         break;
+
+//     case a==9 || a==10 || a==11:
+//         season = "Fall"
+//         break;
+
+//     default:
+//         season = "Invalid Month"
+// }
+// console.log(season);
+
+
+
+// 8
+// let score = 98
+// let performance
+// switch(true){
+//     case score>=90 && score<=100:
+//         performance = "It's Excellent"
+//         break;
+
+//     case score>=70 && score<=89:
+//         performance = "It's Good"
+//         break;
+
+//     case score<=70:
+//         performance = "Need Improvement"
+//         break;
+
+//     default:
+//         performance = "Invalid Score"
+        
+// }
+// console.log(performance);
+
+
+
+// 9
+// let age = 10
+// let category
+// switch(true){
+//     case age>=0 && age<=12:
+//         category = "Child"
+//         break;
+//     case age>=13 && age<=19:
+//         category = "Teenager"
+//         break;
+//     case age>=20 && age<=35:
+//         category = "Young Adult"
+//         break;
+//     case age>=36 && age<=60:
+//         category = "Adult"
+//         break;
+//     case age>=60:
+//         category = "Senior"
+//         break;
+//     default:
+//         category = "Invalid Age"
+// }
+// console.log(category);
+
+
