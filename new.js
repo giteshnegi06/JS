@@ -67,7 +67,7 @@
 //     }
 // }    
 
-// 9
+// 
 // let sum =""
 // for(let i=1; i<=4; i++){
 //     sum+=i
@@ -316,7 +316,7 @@
 // 5
 // let a = 5
 // let b = 6
-// let operator = "+"
+// let operator = "/"
 // let result
 // switch(operator){
 //     case "+":
@@ -332,12 +332,12 @@
 //         break;
 
 //     case "/":
-//         if(b !==0){
+//         // if(b !==0){
 //             result = a/b
-//         }
-//         else{
-//             result ="Error"
-//         }
+//         // }
+//         // else{
+//         //     result ="Error"
+//         // }
 //         break;
 
 //     default:
@@ -442,3 +442,69 @@
 // console.log(category);
 
 
+
+
+// FUNCTION 
+// 1
+// function hy(){
+//     let name = "Gitesh"
+//     let age = 22
+
+//     function hello(){
+//         console.log(`I'm ${name}, I'm ${age}`);
+//     }
+//     hello()
+// }
+// hy()
+
+
+// 2
+// function evenOdd( number){
+//     try{
+//         if( typeof number !== "number"){
+//             throw Error ("Invalid Number")
+//         }
+//         if(num%2==0){
+//             console.log("Even");
+//         }
+//         else{
+//             console.log("Odd");
+//         }
+//     }
+//     catch(err){
+//         console.log(err.message);
+//     }
+// }
+// evenOdd("5")
+
+
+// 3
+// let a ={
+//     name:"Gitesh",
+//     age:"22",
+//     hobbies:{
+//         play:"basketball",
+//         work:"Web Dev"
+//     }
+// }
+
+// let b = {...a}
+// b.name="Gitesh Negi"
+// console.log(a);
+// console.log(b);
+
+
+// 4
+// let a ={
+//     name:"Gitesh",
+//     age:"22",
+//     hobbies:{
+//         play:"basketball",
+//         work:"Web Dev"
+//     }
+// }
+
+// let b = JSON.parse(JSON.stringify(a))
+// b.hobbies.work="web development"
+// console.log(a);
+// console.log(b);
