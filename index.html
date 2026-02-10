@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h2>ENTER THE NUMBER</h2>
+    <input type="number" id="Num1" placeholder="Number 1">
+    <br>
+    <input type="number " id="Num2" placeholder="Number 2">
+    <br>
+    <button id="on" onclick="sum()">Submit</button>
+    <br>
+   <p id="result"></p>
+
+    <script>
+        function sum(){
+            let a = Number(document.getElementById("Num1").value)
+            let b = Number(document.getElementById("Num2").value)
+            let sum = 0;
+            sum=a+b
+            document.getElementById("result").innerHTML=sum;
+
+        }
+    </script> -->
+
+
+    <!-- <h2>Profit & Loss</h2>
+    <input type="number" placeholder="Selling Price" id="buyingPrice">
+    <br>
+    <input type="Number" placeholder="Buying Price" id="sellingPrice">
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    <p id="result1" style="color: green;"></p>
+    <p id="result2" style="color: red;"></p>
+
+    <script>
+        function calculate(){
+            let b = Number(document.getElementById("buyingPrice").value);
+            let a = Number(document.getElementById("sellingPrice").value);
+            let show = 0;
+            show = b-a
+            if(a<b){
+                document.getElementById("result1").innerHTML= `You have Profit  ` + show;
+            }
+            else{
+                document.getElementById("result2").innerHTML= `You have Loss `+show;
+            }
+        }
+    </script> -->
+
+
+       <h2>Profit & Loss</h2>
+    <input type="number" placeholder="Selling Price" id="buyingPrice">
+    <br>
+    <input type="Number" placeholder="Buying Price" id="sellingPrice">
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    <p id="result1" style="color: green;"></p>
+    <p id="result2" style="color: red;"></p>
+    <p id="result3" style="color: blue;"></p>
+
+    <script>
+        function calculate(){
+            let b = Number(document.getElementById("buyingPrice").value);
+            let a = Number(document.getElementById("sellingPrice").value);
+            let show = 0;
+            show = b-a
+            if(a<b){
+                show = b-a
+                document.getElementById("result1").innerHTML= `You have Profit  ` + show;
+            }
+            else if(a>b){
+                show = a-b
+                document.getElementById("result2").innerHTML= `You have Loss `+show;
+            }
+            else{
+                document.getElementById("result3").innerHTML=`No Profit, No Loss`+showjs    
+            }
+        }
+    </script>
+</body>
+</html>
+
